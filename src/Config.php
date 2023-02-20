@@ -19,9 +19,9 @@ class Config
             throw new Error(Errors::invalidLocation());
         }
 
-        if (empty($config['service_account_email'])) {
-            throw new Error(Errors::invalidServiceAccountEmail());
-        }
+        //if (empty($config['service_account_email'])) {
+        //    throw new Error(Errors::invalidServiceAccountEmail());
+        //}
     }
 
     /**
