@@ -51,7 +51,7 @@ class TaskHandler
 
         $this->setQueue();
 
-        OpenIdVerificator::verify(request()->bearerToken(), $this->config);
+        //OpenIdVerificator::verify(request()->bearerToken(), $this->config);
 
         $this->handleTask($task);
     }
